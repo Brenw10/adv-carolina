@@ -41,6 +41,7 @@ h2 {
   margin-block: 26px;
   text-transform: uppercase;
   color: #532c1a;
+  line-height: 70px;
 }
 
 @media (max-width: 1024px) {
