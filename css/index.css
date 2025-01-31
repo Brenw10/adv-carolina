@@ -41,6 +41,20 @@ h2 {
   color: #532c1a;
 }
 
+@media (max-width: 1024px) {
+  .banner {
+    margin-inline: auto;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+}
+
 .golden-divisor {
   display: flex;
   gap: 5px;
