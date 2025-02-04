@@ -4,6 +4,11 @@ body {
   overflow-x: hidden;
 }
 
+body>*:not(.thumbnail) {
+  padding-inline: 15px;
+  box-sizing: border-box;
+}
+
 * {
   font-family: "Nunito Sans", serif;
 }
@@ -114,4 +119,58 @@ h2 {
 
 .contact-button:hover {
   background-color: #6c422d;
+}
+
+.section-title {
+  color: #532c1a;
+  text-align: center;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.section-description {
+  text-align: center;
+  color: #666;
+  margin-top: -20px;
+}
+
+.specialties {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 950px;
+  width: 100%;
+  justify-content: space-between;
+  margin-block: 70px;
+  margin-inline: auto;
+  gap: 80px;
+}
+
+.specialties>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 250px;
+}
+
+.specialties img {
+  filter: brightness(0) saturate(100%) invert(28%) sepia(89%) saturate(800%) hue-rotate(5deg) brightness(90%) contrast(90%);
+}
+
+.specialties__title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.specialties__desc {
+  text-align: justify;
+  color: #666;
+}
+
+.mt-50 {
+  margin-top: 50px;
 }
