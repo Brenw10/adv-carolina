@@ -138,12 +138,12 @@ h2 {
 .specialties {
   display: flex;
   flex-wrap: wrap;
-  max-width: 950px;
+  max-width: 1000px;
   width: 100%;
   justify-content: space-between;
   margin-block: 70px;
   margin-inline: auto;
-  gap: 80px;
+  gap: 100px;
 }
 
 .specialties>div {
@@ -167,8 +167,60 @@ h2 {
 }
 
 .specialties__desc {
-  text-align: justify;
+  text-align: center;
   color: #666;
+}
+
+.about-company {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-right: 0 !important;
+  margin-bottom: 500px;
+}
+
+.about-company>div {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .about-company {
+    flex-direction: column;
+    padding: 0 !important;
+  }
+
+  .about-company>div {
+    width: auto;
+  }
+}
+
+.about-company__left {
+  margin: 25px;
+  align-content: center;
+}
+
+.about-company .section-title {
+  text-align: left;
+}
+
+.about-company__item {
+  margin-left: 15px;
+  margin-block: 15px;
+}
+
+.about-company__item,
+.about-company__desc {
+  color: #464646;
+}
+
+.about-company__img {
+  background-image: url(../images/about-company.jpeg);
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+  min-height: 450px;
 }
 
 .mt-50 {
