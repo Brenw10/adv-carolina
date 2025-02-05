@@ -210,11 +210,6 @@ h2 {
   margin-block: 15px;
 }
 
-.about-company__item,
-.about-company__desc {
-  color: #464646;
-}
-
 .about-company__img {
   background-image: url(../images/about-company.jpeg);
   background-size: cover;
