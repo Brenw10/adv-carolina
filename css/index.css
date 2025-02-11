@@ -100,9 +100,11 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 5px;
+  margin-top: 30px;
 }
 
-.contact-button {
+.contact__button {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -117,8 +119,15 @@ h2 {
   font-weight: 700;
 }
 
-.contact-button:hover {
+.contact__button:hover {
   background-color: #6c422d;
+}
+
+.contact__text {
+  color: #392526;
+  font-size: 15px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .section-title {
